@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b249eded9e.js" crossorigin="anonymous"></script>
+
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -14,6 +17,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        footerbgcolor: '#dc2626',
                     }
                 }
             }
@@ -177,7 +181,7 @@
 
         </section>
         <!-- contact section -->
-        <section class="my-12">
+        <section class="my-12 ml-20">
             <div class="grid grid-cols-2 gap-7">
                 <div class="flex items-center justify-between shadow-lg rounded-lg">
                     <img class="w-20 h-20" src="images/house.png" alt="">
@@ -206,6 +210,12 @@
             </div>
         </section>
     </main>
+    <!-- footer section -->
+    <footer class="bg-gray-800 h-28">
+        <div class="container mx-auto flex justify-center">
+            <p class="text-teal-50">Copyright <i class="far fa-copyright"></i> 2022, EzabulBari</p>
+        </div>
+    </footer>
 </body>
 
 </html>
